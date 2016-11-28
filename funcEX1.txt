@@ -1,0 +1,9 @@
+Construct a function that has three parameters x, y, z
+z has a default value of 20
+Return x + y + z
+Call this function using all three positional arguments
+Call this function using named arguments x, y (let z be the default)
+Call this function with one positional argument and two named arguments
+call this fuction using three strings
+Call this fuction using three lists.
+
