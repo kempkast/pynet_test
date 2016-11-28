@@ -1,0 +1,2 @@
+Write a script that prompt for two numbers.
+print ou the sum, difference, product, and quotient/remainder as a float
