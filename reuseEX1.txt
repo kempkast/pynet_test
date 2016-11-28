@@ -1,0 +1,6 @@
+Write a program with three functions (func1, func2, func3)
+Ust the if __name__ techique to separate the importable code from the executable code.
+Create a main() function and call it.
+Execute the programe from the command line. Verify main() function executes
+Go into the Python shell and import the module. Verify main() function does NOT execute.
+
