@@ -1,0 +1,4 @@
+Create a python script with three strings representing three names.
+Print these three names out in a column 30 wide, right aligned.
+Execute the script verify the output.
+Add a prompt for a fourth name, print this out as well.

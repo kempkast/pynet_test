@@ -1,0 +1,5 @@
+Create a python script that prompts for an IP address.
+Use #! at the top of file; make executable
+split on '.'
+Print out four octets with column width of 12; left aligned.
+
