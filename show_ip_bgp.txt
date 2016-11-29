@@ -1,0 +1,8 @@
+BGP table version is 3060355, local router ID is 128.223.51.103
+Status codes:
+Origin Codes:
+RPKI
+
+
+    Network     Next Hop        Metric LocPrf       Weight Path
+* 1.0.4.0./24   4.69.184.193        0       0           0   3356 4637 1221 38803 56203 i
