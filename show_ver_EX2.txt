@@ -1,0 +1,12 @@
+Parse show version and obtain:
+Vendor
+Model Number
+OS version
+Serial number
+Uptime
+
+Read 'show version' from a file
+For each of the above parsing use a function
+Save this iformation to a dictionary 
+Print out the distionary's keys and values using pprint.
+
