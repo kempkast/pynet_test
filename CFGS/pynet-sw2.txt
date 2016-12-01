@@ -8,15 +8,13 @@ hostname pynet-sw2
 !
 interface FastEthernet0
  no ip address
- switchport mode trunk
- switchport trunk native vlan 1
- switchport trunk allowed vlan 1,100
+ switchport mode access
+ switchport access vlan 100
 !
 interface FastEthernet1
  no ip address
- switchport mode trunk
- switchport trunk native vlan 1
- switchport trunk allowed vlan 1,100
+ switchport mode access
+ switchport access vlan 100
 !
 interface FastEthernet2
  no ip address
@@ -25,8 +23,16 @@ interface FastEthernet2
 !
 interface FastEthernet3
  no ip address
- switchport mode access
- switchport access vlan 100
+ switchport mode trunk
+ switchport trunk native vlan 1
+ switchport trunk allowed vlan 1,100
+!
+interface FastEthernet4
+ no ip address
+ switchport mode trunk
+ switchport trunk native vlan 1
+ switchport trunk allowed vlan 1,100
+!
 !
 !
 ip default-gateway 10.10.20.1
